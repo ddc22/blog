@@ -1,43 +1,51 @@
 ---
 title: About
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: About DDC
+  description: Full Stack Engineer specializing in React, Java, and cloud technologies with experience across retail, e-commerce, and marketing platforms.
   image:
     src: '/about.jpeg'
-    alt: A person sitting at a desk in front of a computer
+    alt: Professional headshot of DDC
 ---
 
-![Alt text for image](/about.jpeg)
+## DDC - Full Stack Engineer
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
-## Ethan Donovan - Web Developer based in Estonia
-
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**Greetings!** I'm DDC, a passionate full stack engineer with over 9 years of experience building scalable web applications and services. I specialize in creating elegant, performant solutions across various domains including retail systems, e-commerce platforms, and marketing technology.
 
 ## Skills and Expertise
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+My technical toolkit spans both frontend and backend technologies. On the frontend, I'm proficient with **React**, **Redux**, **Angular**, **TypeScript**, and **Emotion CSS-in-JS** for building dynamic user interfaces. For backend development, I leverage **Java**, **Spring Framework/Boot**, **REST APIs**, and **NestJS**. I'm experienced with database technologies including **MySQL**, **PostgreSQL**, and **Clickhouse** for analytics. My cloud infrastructure knowledge includes **AWS Lambda**, **ECS/Fargate**, **EventBridge**, and **S3/Firehose**.
+
+## Professional Journey
+
+### Automattic (2020-2025)
+At Automattic, I worked on WordPress.com Growth projects where I architected component-based UIs with ReactJS/Redux for the plans page, leading to 47% improvement in purchase conversions and 50% reduction in support tickets. I led a 4-person team to deliver BuiltByWordpress Express service with dynamic pricing and multi-step onboarding.
+
+My most challenging project was an AI Email Marketing Platform where I designed a unified interface for AI integrations (Anthropic-Claude and OpenAI-ChatGPT), built responsive frontends with ReactJS/TypeScript, and implemented event-based data pipelines integrating multiple sources with a customer segmentation engine. I worked with Clickhouse to build columnar efficient data stores for real-time analysis of email campaign performance.
+
+### Enactor (2018-2020)
+As a Senior Software Engineer at Enactor, I led an 8-person cross-border team building a React-based UI Layer for retail POS systems. We developed a modularized codebase using Lerna/webpack to facilitate decoupled logic and high cohesion. I also worked on an E-Commerce platform implemented from scratch using React, Flux, and Webpack.
+
+### Avtra (2017-2018)
+At Avtra, I focused on building passenger checkin systems and ticket booking platforms for the airline industry. I performed full stack development with primary involvement in backend technologies including Java 8, Spring Boot, and Spring Security.
+
+### Virtusa (2016-2017)
+I began my professional career at Virtusa developing an innovative dashboard platform with AngularJS frontend and Spring REST backend. I implemented and managed app integration using RabbitMQ and multiple disparate hosts and clients using AMQP protocols.
 
 ## Innovation and Problem-Solving
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+One of my most significant technical challenges was building a hyper-personalized email system at Automattic. Working in a three-person team, I helped architect data pipelines to sync and process massive volumes of customer data from diverse sources. I built a scalable data validation layer as a serverless component and implemented an SQS queue system to manage high-volume data flow without loss. This directly contributed to our email personalization achieving approximately 18% lift over standard templates.
 
-## Global Perspective, Local Impact
+## Collaboration and Leadership
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+Throughout my career, I've grown from an individual contributor to a team leader who can both architect systems and help other developers succeed. At Enactor, I drove company-wide JavaScript/React knowledge discovery as a trainer and reviewer. At Automattic, I led multiple teams through high-velocity product changes while maintaining code quality and performance.
 
 ## Continuous Learning
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
-
-## Collaboration and Communication
-
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+I'm passionate about staying at the forefront of technology, constantly expanding my skill set across both frontend and backend domains. I find the most reward in building abstractions that solve complex problems in elegant ways—whether that's component architectures, data pipelines, or API interfaces.
 
 ## Get in Touch
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+Looking for a seasoned full stack engineer to help bring your digital vision to life? I'd love to connect and discuss how my experience might benefit your team or project.
 
-_Let's build something amazing together!_
+_Let's build something impactful together!_

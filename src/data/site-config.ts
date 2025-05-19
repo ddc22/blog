@@ -7,6 +7,7 @@ export type Image = {
 export type Link = {
     text: string;
     href: string;
+    active?: boolean;
 };
 
 export type Hero = {
@@ -39,13 +40,13 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    website: 'https://ddc-software.dev',
+    title: 'The Software Craftsman Voyage of DDC',
+    subtitle: 'Full Stack Engineer',
+    description: 'Building elegant solutions at scale with React, Java, and cloud technologies',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/profile-image.jpg',
+        alt: 'DDC - Software Engineer'
     },
     headerNavLinks: [
         {
@@ -59,52 +60,36 @@ const siteConfig: SiteConfig = {
         {
             text: 'Blog',
             href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
         }
     ],
     footerNavLinks: [
         {
             text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            href: '/about',
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'GitHub',
+            href: 'https://github.com/ddc22'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Twitter',
+            href: 'https://twitter.com/ddc22'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Building Software That Matters',
+        text: "I'm a **Full Stack Engineer** with a passion for creating elegant, scalable solutions. My journey spans from aviation systems and retail POS platforms to WordPress.com growth initiatives and AI-powered marketing tools. I specialize in **React/Redux** ecosystems with **TypeScript** on the frontend and **Java/Spring** on the backend, with recent work in serverless architectures and event-driven systems. I believe great software combines technical excellence with intuitive user experiences, always focusing on solving real business problems. Check out some of my work on <a href='https://github.com/ddc22'>GitHub</a> or connect with me on <a href='https://twitter.com/ddc22'>Twitter</a>.",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Software engineer at work'
         },
         actions: [
+            {
+                text: 'View Projects',
+                href: '/projects'
+            },
             {
                 text: 'Get in Touch',
                 href: '/contact'
@@ -112,12 +97,12 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
+        title: 'Subscribe to My Tech Newsletter',
+        text: 'Occasional updates on frontend architecture, React patterns, and cloud solutions.',
+        formUrl: '#newsletter-signup'
     },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 6,
+    projectsPerPage: 6
 };
 
 export default siteConfig;

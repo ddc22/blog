@@ -43,7 +43,7 @@ const siteConfig: SiteConfig = {
     website: 'https://ddc-software.dev',
     title: 'Dev Voyage',
     subtitle: 'The Software Craftsman Voyage of DDC',
-    description: 'Building elegant solutions at scale with React, Java, and cloud technologies',
+    description: 'Building elegant solutions at scale with React, and cloud technologies',
     image: {
         src: '/profile-image.jpg',
         alt: 'DDC - Software Engineer'

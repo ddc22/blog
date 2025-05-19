@@ -41,8 +41,8 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     website: 'https://ddc-software.dev',
-    title: 'The Software Craftsman Voyage of DDC',
-    subtitle: 'Full Stack Engineer',
+    title: 'Dev Voyage',
+    subtitle: 'The Software Craftsman Voyage of DDC',
     description: 'Building elegant solutions at scale with React, Java, and cloud technologies',
     image: {
         src: '/profile-image.jpg',
@@ -79,7 +79,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Building Software That Matters',
+        title: '',
         text: "I'm a **Full Stack Engineer** with a passion for creating elegant, scalable solutions. My journey spans from aviation systems and retail POS platforms to WordPress.com growth initiatives and AI-powered marketing tools. I specialize in **React/Redux** ecosystems with **TypeScript** on the frontend and **Java/Spring** on the backend, with recent work in serverless architectures and event-driven systems. I believe great software combines technical excellence with intuitive user experiences, always focusing on solving real business problems. Check out some of my work on <a href='https://github.com/ddc22'>GitHub</a> or connect with me on <a href='https://twitter.com/ddc22'>Twitter</a>.",
         image: {
             src: '/hero.jpeg',

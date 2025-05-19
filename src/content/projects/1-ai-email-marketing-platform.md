@@ -12,7 +12,7 @@ seo:
 ![Project preview](/email-marketing-platform.webp)
 
 **Project Overview:**
-While at Automattic, I helped build a cutting-edge AI Email Marketing Platform that transformed how businesses connect with their customers. This platform leveraged artificial intelligence to create hyper-personalized email content and optimize campaign performance through real-time analytics.
+ I helped build a cutting-edge AI Email Marketing Platform that transformed how businesses connect with their customers. This platform leveraged artificial intelligence to create hyper-personalized email content and optimize campaign performance through real-time analytics.
 
 ## Objectives
 

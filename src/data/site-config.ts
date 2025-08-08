@@ -40,7 +40,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://ddc-software.dev',
+    website: 'https://dev-voyage.blog',
     title: 'Dev Voyage',
     subtitle: 'The Software Craftsman Voyage of DDC',
     description: 'Building elegant solutions at scale with React, and cloud technologies',

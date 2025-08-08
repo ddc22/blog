@@ -90,7 +90,6 @@ function App() {
   );
 }
 
-export default App;
 
 ```
 
@@ -102,3 +101,5 @@ The first lesson of react rendering is that the sub tree re-renders each time th
 <p style="display: flex;justify-content: center;">
   <img style="width: 100%;" src="/perf-test-1.gif" />
 </p>
+
+Now let's try adding a button at Level3 to see how the performance graph reacts.

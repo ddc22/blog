@@ -12,7 +12,7 @@ tags:
     - Design Systems
 seo:
     image:
-        src: "images/ant-design-library.jpg"
+        src: "./images/ant-design-library.jpg"
         alt: Component library architecture diagram
 ---
 

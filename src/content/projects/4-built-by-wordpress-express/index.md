@@ -4,11 +4,11 @@ description: A streamlined website building service with dynamic pricing, multi-
 publishDate: 'Aug 05 2022'
 seo:
   image:
-    src: '/built-by-wordpress-express.jpg'
+    src: './cover.jpg'
     alt: BuiltByWordPress interface
 ---
 
-![Project preview](/built-by-wordpress-express.jpg)
+![Project preview](./cover.jpg)
 
 **Project Overview:**
 At Automattic, I led a 4-person team to develop the BuiltByWordPress Express service, a specialized offering that streamlined website creation for small businesses. This service combined a guided, multi-step onboarding process with dynamic pricing and automated page pre-generation to jumpstart the website design process.

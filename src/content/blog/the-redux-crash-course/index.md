@@ -7,13 +7,7 @@ tags:
   - React
   - JavaScript
   - State Management
-seo:
-  image:
-    src: '/redux-crash-course.jpg'
-    alt: Redux state flow diagram
 ---
-
-![Redux state flow diagram](/redux-crash-course.jpg)
 
 **Note:** This article provides a beginner-friendly introduction to Redux. The code examples are available [on GitHub](https://github.com/jdc91/redux-beginner).
 
@@ -30,8 +24,6 @@ As you mature with React, one thing that might come up is the need for a proper 
 ## Flux
 
 Remember the first time you heard "unidirectional data flow"? Well, it is one of the single most important principles that governs React and, by extension, Redux. This one-way data flow pattern was coined by Facebook as Flux. Redux is heavily influenced by Flux with a few distinctions.
-
-![Flux Pattern](/flux-pattern.png)
 
 Watch [this video](https://www.youtube.com/watch?list=PLb0IAmt7-GS188xDYE-u1ShQmFFGbrk0v&time_continue=621&v=nYkdrAPrdcw) for a more in-depth idea of Flux.
 
@@ -50,8 +42,6 @@ Watch [this video](https://www.youtube.com/watch?list=PLb0IAmt7-GS188xDYE-u1ShQm
 2. **Redux**: Reducers provided to the store externally, mutations actively discouraged (pure functions required)
 
 The basic story behind Redux is that there is one single store with all your global state. Actions are literal or logical events in your app like adding an item to a list, receiving user details payload, a checkbox being ticked, and so on. These actions create a brand new state of the app with the help of the reducers.
-
-![Redux Flow](/redux-flow.png)
 
 This is probably the most simple way to understand Redux.
 

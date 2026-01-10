@@ -7,15 +7,29 @@ import '../styles/global.css';
 export type Props = {
     title?: string;
     description?: string;
-    image?: { src: string; alt?: string };
+    image?: { src: string | ImageMetadata; alt?: string };
     pageType?: 'website' | 'article';
+};
+
+type ImageMetadata = {
+    src: string;
+    width: number;
+    height: number;
+    format: string;
 };
 
 const { description = '', image = siteConfig.image, pageType = 'website' } = Astro.props;
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
+
+function getImageSrc(src: string | ImageMetadata | undefined): string | undefined {
+    if (!src) return undefined;
+    if (typeof src === 'string') return src;
+    return src.src;
+}
+
 const resolvedImage = image?.src
     ? {
-          src: new URL(image.src, Astro.site).toString(),
+          src: new URL(getImageSrc(image.src) || '', Astro.site).toString(),
           alt: image.alt
       }
     : undefined;

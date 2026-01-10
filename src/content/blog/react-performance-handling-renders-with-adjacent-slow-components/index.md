@@ -8,11 +8,9 @@ tags:
   - JavaScript
 seo:
   image:
-    src: '/react-performance.jpg'
+    src: './cover.jpg'
     alt: React component optimization visualization
 ---
-
-![React component optimization visualization](/react-performance.jpg)
 
 **Note:** This article explores advanced React optimization techniques for handling performance bottlenecks caused by slow components.
 

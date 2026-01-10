@@ -12,7 +12,7 @@ tags:
     - Design Systems
 seo:
     image:
-        src: "/ant-design-library.jpg"
+        src: "images/ant-design-library.jpg"
         alt: Component library architecture diagram
 ---
 
@@ -182,7 +182,7 @@ The key insight is that you don't need to reinvent the wheel. You just need a th
 
 One difficulty we faced: as time went on, some components needed to be wrapped that weren't originally. This requires a refactoring effort to move the component to the library.
 
-If your team isn't disciplined and customizes components in various places, it becomes a nightmare to consolidate them. One solution is to mandatorily wrap *all* components from day one. This eliminates the refactoring problem but doesn't prevent customizations done outside the library—that still requires code reviews.
+If your team isn't disciplined and customizes components in various places, it becomes a nightmare to consolidate them. One solution is to mandatorily wrap _all_ components from day one. This eliminates the refactoring problem but doesn't prevent customizations done outside the library—that still requires code reviews.
 
 The tradeoff is speed vs. consistency. Wrapping everything upfront is slower initially but saves pain later. Choose based on your team's discipline and product timeline.
 

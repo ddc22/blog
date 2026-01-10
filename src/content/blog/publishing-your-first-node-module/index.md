@@ -7,13 +7,7 @@ tags:
   - NPM
   - JavaScript
   - Tutorial
-seo:
-  image:
-    src: '/npm-publish.jpg'
-    alt: NPM package publishing process
 ---
-
-![NPM package publishing process](/npm-publish.jpg)
 
 **Note:** This quick guide will walk you through the process of publishing your first Node.js module to the NPM registry.
 

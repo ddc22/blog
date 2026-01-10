@@ -5,11 +5,11 @@ publishDate: 'Jun 10 2019'
 isFeatured: true
 seo:
   image:
-    src: '/react-retail-pos-system.jpg'
+    src: './cover.jpg'
     alt: Retail POS system interface
 ---
 
-![Project preview](/react-retail-pos-system.jpg)
+![Project preview](./cover.jpg)
 
 **Project Overview:**
 At Enactor, I led an 8-person cross-border team that developed a React-based UI layer for the retail Point of Sale system. This innovative solution built on top of the existing Java-based Enactor retail framework backend, integrated via websockets to create a modern, infinitely customizable interface for retailers.

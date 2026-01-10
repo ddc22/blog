@@ -4,7 +4,7 @@ seo:
   title: About DDC
   description: Full Stack Engineer specializing in React, Java, and cloud technologies with experience across retail, e-commerce, and marketing platforms.
   image:
-    src: '/about.jpeg'
+    src: './cover.jpeg'
     alt: Professional headshot of DDC
 ---
 

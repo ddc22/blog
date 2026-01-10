@@ -4,11 +4,11 @@ description: A conversion-optimized component system for WordPress.com's plans s
 publishDate: 'Nov 22 2021'
 seo:
   image:
-    src: '/wordpress-plans-pricing-grid.jpg'
+    src: './cover.jpg'
     alt: WordPress.com plans page interface
 ---
 
-![Project preview](/wordpress-plans-pricing-grid.jpg)
+![Project preview](./cover.jpg)
 
 **Project Overview:**
 As part of the WordPress.com Growth team at Automattic, I led the redesign of the plans page—a critical conversion point where users select and purchase WordPress.com subscriptions. This project involved creating a component-based UI system that could accommodate high-velocity product changes while providing a clear, user-friendly experience.

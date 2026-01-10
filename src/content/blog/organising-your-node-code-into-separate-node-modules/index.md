@@ -6,13 +6,7 @@ tags:
   - Node.js
   - Architecture
   - JavaScript
-seo:
-  image:
-    src: '/node-modules.jpg'
-    alt: Node.js code organization diagram
 ---
-
-![Node.js code organization diagram](/node-modules.jpg)
 
 **Note:** This article provides practical guidance for structuring large-scale Node.js applications using modular architecture.
 
@@ -25,8 +19,6 @@ A common hurdle you'll have to cross is figuring out how to organize, structure,
 > Writing an exportable NPM package is a separate lesson in itself and is not the scope of this guide. Please check out [this guide](https://medium.com/@jdc91xt/published-your-first-node-module-252ec6b8b0e9) for a simple explanation on how to do this.
 
 ## Understanding How node_modules Work
-
-![Node.js modules structure](/nodejs-modules.png)
 
 The typical naive approach to working with modules is already familiar to you. You just install a dependency using the npm install command:
 

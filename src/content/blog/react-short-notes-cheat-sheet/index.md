@@ -9,11 +9,9 @@ tags:
   - Frontend
 seo:
   image:
-    src: '/react-code.jpg'
+    src: './cover.jpg'
     alt: React code snippets on a dark background
 ---
-
-![React code snippets on a dark background](/react-code.jpg)
 
 **Note:** This cheat sheet compiles commonly used React patterns and techniques for quick reference.
 

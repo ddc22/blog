@@ -5,11 +5,11 @@ publishDate: 'Mar 15 2023'
 isFeatured: true
 seo:
   image:
-    src: '/email-marketing-platform.jpg'
+    src: './cover.webp'
     alt: AI Email Marketing Platform dashboard
 ---
 
-![Project preview](/email-marketing-platform.webp)
+![Project preview](./cover.webp)
 
 **Project Overview:**
  I helped build a cutting-edge AI Email Marketing Platform that transformed how businesses connect with their customers. This platform leveraged artificial intelligence to create hyper-personalized email content and optimize campaign performance through real-time analytics.

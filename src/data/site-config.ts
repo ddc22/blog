@@ -40,69 +40,70 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://dev-voyage.blog',
-    title: 'Dev Voyage',
-    subtitle: 'The Software Craftsman Voyage of DDC',
-    description: 'Building elegant solutions at scale with React, and cloud technologies',
+    website: "https://dev-voyage.blog",
+    title: "Dev Voyage",
+    subtitle: "The Software Craftsman Voyage of DDC",
+    description:
+        "Building elegant solutions at scale with React, and cloud technologies",
     image: {
-        src: '/profile-image.jpg',
-        alt: 'DDC - Software Engineer'
+        src: "/profile-image.jpg",
+        alt: "DDC - Software Engineer",
     },
     headerNavLinks: [
         {
-            text: 'Home',
-            href: '/'
+            text: "Home",
+            href: "/",
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: "Projects",
+            href: "/projects",
         },
         {
-            text: 'Blog',
-            href: '/blog'
-        }
+            text: "Blog",
+            href: "/blog",
+        },
+        {
+            text: "Tags",
+            href: "/tags",
+        },
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about',
-        }
+            text: "About",
+            href: "/about",
+        },
     ],
     socialLinks: [
         {
-            text: 'GitHub',
-            href: 'https://github.com/ddc22'
+            text: "GitHub",
+            href: "https://github.com/ddc22",
         },
         {
-            text: 'Twitter',
-            href: 'https://twitter.com/DDC1842468'
-        }
+            text: "Twitter",
+            href: "https://x.com/devoyage25",
+        },
     ],
     hero: {
-        title: '',
+        title: "",
         text: "I'm a **Full Stack Engineer** with a passion for creating elegant, scalable solutions. My journey spans from aviation systems and retail POS platforms to WordPress.com growth initiatives and AI-powered marketing tools. I specialize in **React/Redux** ecosystems with **TypeScript** on the frontend and **Java/Spring** on the backend, with recent work in serverless architectures and event-driven systems. I believe great software combines technical excellence with intuitive user experiences, always focusing on solving real business problems. Check out some of my work on <a href='https://github.com/ddc22'>GitHub</a> or connect with me on <a href='https://twitter.com/DDC1842468'>Twitter</a>.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'Software engineer at work'
+            src: "/hero.jpeg",
+            alt: "Software engineer at work",
         },
         actions: [
             {
-                text: 'View Projects',
-                href: '/projects'
+                text: "View Projects",
+                href: "/projects",
             },
             {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+                text: "Get in Touch",
+                href: "/contact",
+            },
+        ],
     },
-    subscribe: {
-        title: 'Subscribe to My Tech Newsletter',
-        text: 'Occasional updates on frontend architecture, React patterns, and cloud solutions.',
-        formUrl: '#newsletter-signup'
-    },
+
     postsPerPage: 6,
-    projectsPerPage: 6
+    projectsPerPage: 6,
 };
 
 export default siteConfig;
